@@ -1,0 +1,6 @@
+{
+  "name": "Tra Cứu Điểm - THPT Tịnh Biên",
+  "description": "Cổng tra cứu điểm thi và nhận xét chi tiết môn Ngữ Văn trường THPT Tịnh Biên - GVBM: Đặng Thị Bích Hài",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
