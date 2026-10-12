@@ -114,7 +114,7 @@ export default function App() {
             Giáo viên phụ trách bộ môn: <strong className="text-slate-700">Đặng Thị Bích Hài</strong> · Môn Ngữ Văn 10
           </p>
           <div className="text-[11px] text-slate-400 pt-2 border-t border-slate-100">
-            Hệ thống tra cứu điểm thi trực tuyến phục vụ kiểm tra đánh giá thường xuyên và định kỳ. Dữ liệu được bảo lưu và cập nhật bởi giáo viên bộ môn.
+            Hệ thống tra cứu kết quả bài tập phục vụ đánh giá môn Ngữ Văn 10. Dữ liệu được quản lý và cập nhật bởi giáo viên bộ môn.
           </div>
         </div>
       </footer>

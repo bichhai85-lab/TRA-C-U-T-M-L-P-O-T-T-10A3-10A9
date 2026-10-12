@@ -36,7 +36,7 @@ export const ClassRosterView: React.FC<ClassRosterViewProps> = ({
             <span>Danh Sách Học Sinh Đã Nộp Bài "Áo Tết"</span>
           </h2>
           <p className="text-xs text-slate-500 mt-0.5">
-            Chọn tên học sinh để chuyển tới cổng tra cứu. Điểm số và nhận xét chi tiết chỉ hiển thị khi nhấp nút Tra cứu.
+            Chọn tên học sinh để tra cứu. Điểm số và nhận xét chi tiết chỉ hiển thị khi nhấp nút Tra cứu.
           </p>
         </div>
 

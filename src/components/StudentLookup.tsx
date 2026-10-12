@@ -123,9 +123,6 @@ export const StudentLookup: React.FC<StudentLookupProps> = ({
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/60 to-transparent" />
 
         <div className="relative z-10 p-6 md:p-8 max-w-2xl">
-          <div className="text-xs uppercase tracking-widest text-blue-300 font-semibold mb-1">
-            Cổng Thông Tin Học Tập Trực Tuyến — THPT Tịnh Biên
-          </div>
           <h1 className="text-2xl md:text-3xl font-extrabold text-white tracking-tight">
             Tra Cứu Kỹ Năng Tìm Ý, Lập Ý Qua "Áo Tết"
           </h1>
