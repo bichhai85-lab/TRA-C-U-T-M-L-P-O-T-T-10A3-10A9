@@ -301,37 +301,6 @@ export const StudentLookup: React.FC<StudentLookupProps> = ({
           )}
         </div>
       )}
-
-      {/* Subject Information Note - Thang điểm 10 quy đổi cho bài tập "Áo Tết" */}
-      <div className="bg-slate-100/70 border border-slate-200 rounded-xl p-5 text-xs text-slate-600 space-y-3">
-        <div className="font-semibold text-slate-800 flex items-center gap-2">
-          <BookMarked className="w-4 h-4 text-blue-600" />
-          <span>Thang điểm 10 quy đổi cho bài tập "Áo Tết" & Quy tắc đánh giá:</span>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-2.5 pt-1">
-          <div className="bg-white p-3 rounded-lg border border-slate-200">
-            <div className="font-bold text-slate-900">Câu 4 (2.0 điểm)</div>
-            <p className="text-slate-600 mt-1 leading-relaxed">
-              Nêu cảm nhận / lý do yêu thích tác phẩm. Điểm tối đa khi lý giải thuyết phục, chân thành.
-            </p>
-          </div>
-          <div className="bg-white p-3 rounded-lg border border-slate-200">
-            <div className="font-bold text-slate-900">Câu 5 (3.0 điểm)</div>
-            <p className="text-slate-600 mt-1 leading-relaxed">
-              Nêu chính xác chủ đề truyện (Ca ngợi tình bạn trong sáng, thấu hiểu của trẻ thơ). Điểm tối đa khi cô đọng, trúng trọng tâm.
-            </p>
-          </div>
-          <div className="bg-white p-3 rounded-lg border border-slate-200">
-            <div className="font-bold text-slate-900">Câu 6 (5.0 điểm)</div>
-            <p className="text-slate-600 mt-1 leading-relaxed">
-              Nêu 2 đặc sắc nghệ thuật (Tâm lý nhân vật tinh tế; Ngôn ngữ đậm chất Nam Bộ) + 2 dẫn chứng trích từ văn bản.
-            </p>
-          </div>
-        </div>
-        <div className="text-[11px] text-slate-500 pt-1 border-t border-slate-200 leading-relaxed">
-          * Nhận xét được xây dựng ngắn gọn, dễ hiểu, khách quan, không dùng đại từ xưng hô, chỉ rõ hạn chế cụ thể ở từng câu khiến bài làm chưa đạt điểm tối đa.
-        </div>
-      </div>
     </div>
   );
 };

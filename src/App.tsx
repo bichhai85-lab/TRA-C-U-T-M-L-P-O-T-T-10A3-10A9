@@ -10,7 +10,7 @@ import { TeacherAdmin } from './components/TeacherAdmin';
 import { ClassRosterView } from './components/ClassRosterView';
 import { INITIAL_STUDENTS } from './data/initialData';
 import { StudentScore } from './types';
-import { GraduationCap } from 'lucide-react';
+import { GraduationCap, Lock } from 'lucide-react';
 
 const STORAGE_KEY = 'thpt_tinh_bien_scores_ao_tet_full_cohort_v1';
 
@@ -113,8 +113,17 @@ export default function App() {
           <p className="text-slate-500">
             Giáo viên phụ trách bộ môn: <strong className="text-slate-700">Đặng Thị Bích Hài</strong> · Môn Ngữ Văn 10
           </p>
-          <div className="text-[11px] text-slate-400 pt-2 border-t border-slate-100">
-            Hệ thống tra cứu kết quả bài tập phục vụ đánh giá môn Ngữ Văn 10. Dữ liệu được quản lý và cập nhật bởi giáo viên bộ môn.
+          <div className="text-[11px] text-slate-400 pt-2 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-2">
+            <span>Hệ thống tra cứu kết quả bài tập phục vụ đánh giá môn Ngữ Văn 10.</span>
+            {currentTab !== 'admin' && (
+              <button
+                onClick={() => setCurrentTab('admin')}
+                className="text-[11px] text-slate-400 hover:text-slate-600 transition-colors inline-flex items-center gap-1 cursor-pointer"
+              >
+                <Lock className="w-3 h-3 text-slate-400" />
+                <span>Khu vực quản lý điểm (GVBM)</span>
+              </button>
+            )}
           </div>
         </div>
       </footer>
